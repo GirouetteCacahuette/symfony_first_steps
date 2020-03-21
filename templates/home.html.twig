@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <h2>Welcome home.</h2>
+    <a href="{{ path('app_question_show', { slug: 'great-question-?' }) }}">
+        <p>
+            Ask a question
+        </p>
+    </a>
+
+{% endblock %}
